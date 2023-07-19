@@ -35,4 +35,13 @@
         font-size: 55px;
 
     }
+    /* banner responsive ends */
+
+    .grid-container,.game-text p{
+        display: block;
+        padding-left: 30vw;
+        width: 100%;
+    
+    }
+    
 }
