@@ -1,0 +1,38 @@
+@media screen and (max-width:400px) {
+    .nav-container{
+        flex-direction: column;
+        
+    }
+    .logo-container{
+       margin-right: 40vw;
+    }
+    .nav-items-container{
+        flex-direction: column;
+       
+        
+    }
+    .nav-items-container a{
+        
+        margin-top: 5vw;
+    }
+    .follow-btn{
+        margin: 2vw;
+    }
+    /* nav response end */
+
+    .banner-container{
+        flex-direction: column;
+    }
+   
+    .banner-img,.banner-text{
+        width: 100%;
+    }
+    .banner-text h3{
+        font-size: 35px;
+
+    }
+    .banner-text h1{
+        font-size: 55px;
+
+    }
+}
