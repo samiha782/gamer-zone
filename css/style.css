@@ -222,3 +222,62 @@ nav {
     font-size: 12px;
     text-align:center;
 }
+
+/* option section */
+
+.option-container{
+    border: 1px solid red;
+    min-height: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.single-option{
+    border: 1px solid fuchsia;
+    flex-basis: 300px;
+}
+.single-option img{
+    width: 30px;
+    height: 30px;
+}
+.one-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.two-option{
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+}
+.three-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.four-option{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.five-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.six-option{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.seven-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eight-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
