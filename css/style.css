@@ -14,7 +14,7 @@ nav {
 
 .nav-container {
 
-    /* height: 80px; */
+
 
     min-height: 50px;
     display: flex;
@@ -138,7 +138,7 @@ nav {
     font-size: 15px;
 }
 
-.btn-one {
+.banner-btn-one {
     background-color: #ff42A5;
     display: inline-flex;
     padding: 21px 40px;
@@ -153,13 +153,14 @@ nav {
 
 }
 
-.btn-one a {
+.banner-btn-one a {
     text-decoration: none;
+    color: #FFF;
 }
 
-.btn-two {
+.banner-btn-two {
 
-    background-color: #4EC5F7;
+    background-color:#4EC5F7;
     display: inline-flex;
     padding: 21px 40px;
 
@@ -174,17 +175,18 @@ nav {
 
 }
 
-.btn-two a {
+.banner-btn-two a {
     text-decoration: none;
+    color:#fff ;
 }
 
 /* online games section */
 .grid-container {
     display: grid;
-    
+
     max-width: 1400px;
     margin: 50px auto 0;
-    min-height: 400px;
+    min-height: 100px;
     /* grid-template-columns: repeat(4, 1fr);
     gap:5px; */
     display: flex;
@@ -202,90 +204,143 @@ nav {
 
 .single-game {
     width: 20%;
-    
+
     padding: 0 10px;
 
 }
 
 .single-game img {
     width: 70%;
-    display:block;
+    display: block;
     margin: 0 auto;
     width: 150px;
     height: 200px;
-    
-    
+
+
 
 }
 
 .game-text p {
     font-size: 12px;
-    text-align:center;
+    text-align: center;
 }
 
-/* option section */
+/* button section start */
 
-.option-container{
-   
-    min-height: 100px;
-    margin-top: 50px;
+.btn-container {
+    
+    min-height: 80px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    align-content:center ;
-    justify-content: center;
-}
-.single-option{
-    /* border: 1px solid fuchsia; */
-    flex-basis: 300px;
-}
-.single-option img{
-    width: 30px;
-    height: 30px;
-}
-.one-option{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.two-option{
-    
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+    align-content: center;
+    column-gap: 10px;
+    justify-content:center;
+   
 
 }
-.three-option{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.btn-container img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
 }
-.four-option{
+.btn-one {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
 }
-.five-option{
+.btn-two {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+   
+       
 }
-.six-option{ 
+.btn-three {
+    border: 1.2px solid palevioletred;
+    width: 160px;
+    height: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
 }
-.seven-option{
+.btn-four {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
 }
-.eight-option{
+.btn-five {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
 }
-.nine-option{
+.btn-six {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
     display: flex;
-    justify-content: space-evenly;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
+    
+}
+.btn-seven {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
+}
+.btn-eight {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
+}
+.btn-nine {
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    column-gap: 3px;
+    
 }

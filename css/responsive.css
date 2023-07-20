@@ -1,10 +1,10 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
     .nav-container{
         flex-direction: column;
         
     }
     .logo-container{
-       margin-right: 40vw;
+       margin-right: 30vw;
     }
     .nav-items-container{
         flex-direction: column;
@@ -26,7 +26,13 @@
    
     .banner-img,.banner-text{
         width: 100%;
+        
     }
+    .banner-img{
+        flex-direction: column-reverse;
+        padding-left: 15vw;
+    }
+    
     .banner-text h3{
         font-size: 35px;
 
@@ -43,5 +49,8 @@
         width: 100%;
     
     }
+    
+
+    
     
 }
