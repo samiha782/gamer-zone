@@ -379,3 +379,16 @@ height: 22px;
 margin:0px 0px auto;
 
 }
+.footer-option{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 8px;
+}
+.footer-option a{
+    font-size: 13px;
+    text-decoration: none;
+    color:white;
+   
+}
